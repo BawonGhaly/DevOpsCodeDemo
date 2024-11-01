@@ -1,4 +1,4 @@
-FROM tomcat:9
-ADD addressbook.war /usr/local/tomcat/webapps
-CMD ["catalina.sh", "run"]
+FROM OpenJDK8
 EXPOSE 8080
+ADD target/jenkins-node.jar jenkins-node.jar
+ENTRYPOINT ["JAVA","-jar","/jenkins-node.jar"]
