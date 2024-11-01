@@ -193,7 +193,7 @@
 			</plugin>
 
         </plugins>
-		<finalName>addressbook</finalName>
+		<finalName>jenkins-node</finalName>
     </build>
 	
 	  
